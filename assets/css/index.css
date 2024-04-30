@@ -147,18 +147,18 @@ a {
     background-color: #000;
     color: #fff;
     bottom: 0;
-    position: relative;
-    flex-wrap: wrap;
+
 }
 
 .content-footer {
     display: flex;
     justify-content: center;
+    align-self: center;
     align-items: center;
     flex-direction: column;
     margin: 5vh;
     order: 1;
-    width: 1300px;
+    width: 60vw;
     background-color: #000;
 }
 
@@ -194,4 +194,8 @@ a {
 .copyright img {
     width: 200px;
     height: auto;
+}
+
+footer, .container-footer {
+    bottom: 0px;
 }
