@@ -199,3 +199,59 @@ a {
 footer, .container-footer {
     bottom: 0px;
 }
+
+/*Cardápio*/ 
+
+.widget {
+    margin-left: 2%;
+}
+
+.widget-title-bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+    margin-bottom: 3%;
+    margin-top: 0;
+}
+
+.widget-title-text {
+    color: var(--history-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cardapio_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.area_menu {
+    width: 309px;
+    text-align: justify;   
+    color: var(--history-color); 
+    border: #fff 2px solid;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 5%;
+}
+
+.news-thumb img {
+    width: 305px;
+    height: auto;
+}
+
+.cardapio_txt {
+    margin: 13px;
+}
+
+.news-title {
+    font-size: 20px;
+}
+
+.news-resume {
+    
+}
+
